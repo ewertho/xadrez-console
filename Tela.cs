@@ -9,18 +9,30 @@ namespace xadrez_console
             for(int i=0; i<tab.linhas; i++){
                 System.Console.Write(8 - i + " ");
                 for(int j=0; j<tab.colunas; j++){
-                    if(tab.peca(i,j)== null){
-                        System.Console.Write("- ");
-                    }else{
-                        imprimirPeca(tab.peca(i, j));
-                        System.Console.Write(" ");
-                        // System.Console.Write( tab.peca(i,j) +" ");
-                    }
-                    
+                    imprimirPeca(tab.peca(i, j));
                 }
                 System.Console.WriteLine();
             }
             System.Console.WriteLine("  a b c d e f g h");
+        }
+        public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicaoPossiveis){
+            ConsoleColor fundoOriginal = Console.BackgroundColor;
+            ConsoleColor fundoAlterado = ConsoleColor.DarkGray;
+            for(int i=0; i<tab.linhas; i++){
+                System.Console.Write(8 - i + " ");
+                for(int j=0; j<tab.colunas; j++){
+                    if(posicaoPossiveis[i,j]){
+                        Console.BackgroundColor = fundoAlterado;
+                    }else{
+                        Console.BackgroundColor = fundoOriginal;
+                    }
+                    imprimirPeca(tab.peca(i, j));
+                    Console.BackgroundColor = fundoOriginal;
+                }
+                System.Console.WriteLine();
+            }
+            System.Console.WriteLine("  a b c d e f g h");
+            Console.BackgroundColor = fundoOriginal;
         }
         public static PosicaoXadrez lerPosicaoXadrez(){
             string s = Console.ReadLine();
@@ -29,13 +41,18 @@ namespace xadrez_console
             return new PosicaoXadrez(coluna, linha);
         }
         public static void imprimirPeca(Peca peca){
-            if(peca.cor == Cor.Branca){
-                System.Console.Write(peca);
+            if(peca == null){
+                System.Console.Write("- ");
             }else{
-                ConsoleColor aux = Console.ForegroundColor;
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                System.Console.Write(peca);
-                Console.ForegroundColor = aux;
+                if(peca.cor == Cor.Branca){
+                    System.Console.Write(peca);
+                }else{
+                    ConsoleColor aux = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    System.Console.Write(peca);
+                    Console.ForegroundColor = aux;
+                }
+                System.Console.Write(" ");
             }
         }
     }
