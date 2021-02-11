@@ -1,0 +1,16 @@
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/xadrez-console
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/xadrez-console.deps.json
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/xadrez-console.runtimeconfig.json
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/xadrez-console.runtimeconfig.dev.json
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/xadrez-console.dll
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/ref/xadrez-console.dll
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/xadrez-console.pdb
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.csprojAssemblyReference.cache
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.GeneratedMSBuildEditorConfig.editorconfig
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.AssemblyInfoInputs.cache
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.AssemblyInfo.cs
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.csproj.CoreCompileInputs.cache
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.dll
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/ref/xadrez-console.dll
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.pdb
+/home/ewerton/projetos/xadrez-console/obj/Release/net5.0/xadrez-console.genruntimeconfig.cache

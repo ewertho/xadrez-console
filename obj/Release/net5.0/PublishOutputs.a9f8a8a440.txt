@@ -1,0 +1,5 @@
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/publish/xadrez-console
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/publish/xadrez-console.dll
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/publish/xadrez-console.deps.json
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/publish/xadrez-console.runtimeconfig.json
+/home/ewerton/projetos/xadrez-console/bin/Release/net5.0/publish/xadrez-console.pdb
